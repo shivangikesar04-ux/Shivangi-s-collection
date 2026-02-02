@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivangi's Collection | Fashion You’ll Love</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    header { background: #111; color:#f8f3f5; display: flex; padding: 10px 30px; justify-content: flex-start; gap: 10px; align-items: center; }
+    .logo { width: 120px; height: auto;}
+    header h1 { font-size: 26px; margin: 0; }
+    nav a { color: #fff; margin-left: 20px; text-decoration: none; font-size: 15px; }
+    .head2 { margin-left: 25px; padding-left: 180PX; display: flex;}
+    .searchbox { display: flex; border-radius: 20px; padding: 2px 8px; margin-left: 20px; }
+    .searchbox input { border: none; outline: none; padding: 6px 8px; border-radius: 20px; font-size: 15px;}
+    .searchbox button { background: none; border: none; cursor: pointer; font-size: 16px;}
+    nav a:hover { text-decoration: underline; }
+
+    .hero { background: url(pexels-ron-lach-8570890.jpg) center/cover no-repeat; color: #f7f2f2; padding: 120px 90px; text-align: center; }
+    .hero h2 { font-size: 42px; margin-bottom: 15px; }
+    .hero p { font-size: 18px; margin-bottom: 25px; }
+    .hero button { padding: 12px 30px; background: #e91e63; border: none; color: #fff; font-size: 16px; cursor: pointer; border-radius: 4px; }
+    .hero button:hover { background: #c2185b; }
+
+    section { padding: 60px; }
+    section h3 { font-size: 28px; margin-bottom: 20px; text-align: center; }
+    section p { max-width: 900px; margin: auto; text-align: center; font-size: 16px; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 40px; }
+    .card { background: #f9f9f9; padding: 25px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .card h4 { margin-bottom: 10px; font-size: 20px; }
+
+    .contact { background: #f4f4f4; }
+    form { max-width: 600px; margin: 40px auto 0; }
+    form input, form textarea { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; }
+    form button { width: 100%; padding: 12px; background: #111; color: #fff; border: none; cursor: pointer; font-size: 16px; }
+    form button:hover { background: #333; }
+
+    footer { background: #111; color: #fff; padding: 30px 60px; }
+    .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    footer h4 { margin-bottom: 10px; }
+    footer p, footer a { font-size: 14px; color: #ccc; text-decoration: none; }
+    footer a:hover { color: #fff; }
+    .copyright { text-align: center; margin-top: 20px; font-size: 13px; color: #aaa; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+   <header>
+   <img src="Pink_and_White_Cute_Feminine_Fashion_Store_Logo-removebg-preview.png" alt="Website Logo" class="logo">
+    <h1>Shivangi's Collection </h1>
+    <nav class="head2">
+    <div class="searchbox">
+        <input type="text" placeholder="Search products...">
+        <button>🔎</button>
+    </div>
+      <a href="#about">About</a>
+      <a href="#trust">Why Trust Us</a>
+      <a href="#returns">Easy Returns</a>
+      <a href="#contact">Contact Us</a>
+
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+    <div class="hero">
+    <h2>Where Style Meets Elegance</h2>
+    <p>Discover trendy, affordable, and premium-quality clothing designed just for you.</p>
+    <button>Shop Now</button>
+  </div>
+
+  <!-- Collection Preview -->
+  <section id="collection">
+    <h3>Our Latest Collection</h3>
+    <div class="features">
+      <div class="card">
+        <img src="womenswear.jpg" alt="Women's Wear" style="width:100%;border-radius:8px;margin-bottom:15px;height: 300px;">
+        <h4>Women's Wear</h4>
+        <p>Elegant and trendy outfits for every occasion.</p>
+      </div>
+      <div class="card">
+        <img src="menswear.jpg" alt="Men's Wear" style="width: 100%;border-radius:8px;margin-bottom: 15px;height: 300px;">
+        <h4>Men's Wear</h4>
+        <p>Stylish and comfortable fashion for daily wear.</p>
+      </div>
+      <div class="card">
+        <img src="pexels-cottonbro-9431865.jpg" alt="Accessories" style="width: 100%;border-radius: 8px;margin-bottom: 15px;height: 300px;">
+        <h4>Accessories</h4>
+        <p>Perfect accessories to complete your look.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Shivangi's Collection</h3>
+    <p>
+      Shivangi's Collection is a modern clothing brand focused on delivering stylish, comfortable, and high-quality outfits.
+      We believe fashion should be effortless, affordable, and confidence-boosting. Each piece is carefully curated
+      to match the latest trends while ensuring comfort and durability.
+    </p>
+  </section>
+
+  <!-- Why Trust Us -->
+  <section id="trust">
+    <h3>Why Trust Us</h3>
+    <div class="features">
+      <div class="card">
+        <h4>Premium Quality</h4>
+        <p>We use carefully selected fabrics to ensure long-lasting quality and comfort.</p>
+      </div>
+      <div class="card">
+        <h4>Affordable Pricing</h4>
+        <p>Trendy fashion at prices that won’t hurt your pocket.</p>
+      </div>
+      <div class="card">
+        <h4>Customer Satisfaction</h4>
+        <p>Thousands of happy customers trust Shivangi's Collection.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Easy Return Policy -->
+  <section id="returns">
+    <h3>Easy Return Policy</h3>
+    <p>
+      Not satisfied with your purchase? No worries! We offer a simple and hassle-free return policy.
+      Products can be returned within 7 days of delivery, provided they are unused and in original condition.
+      Your satisfaction is our priority.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h3>Contact Us</h3>
+    <p>Have questions or need help? Get in touch with us anytime.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4>Shivangi's Collection</h4>
+        <p>Your one-stop destination for fashionable clothing.</p>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>123 Fashion Street,<br>Prayagraj, Uttar Pradesh,<br>India</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: support@shivangiscollection.com</p>
+        <p>Phone: +91 9XXXXXXXXX</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#about">About</a><br>
+        <a href="#contact">Contact</a><br>
+        <a href="#returns">Return Policy</a>
+      </div>
+    </div>
+    <div class="copyright">
+      © 2026 Shivangi's Collection. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
